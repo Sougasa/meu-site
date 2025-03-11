@@ -1,0 +1,37 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+background-color: rgb(129, 164, 218);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+nav a:hover {
+    color:blue;
+    text-decoration: underline;
+}
+
+nav c:hover {
+    color:red;
+}
+
+.container {
+    padding: 0px 50px;
+}
+.ciano {
+    color: #6cf0fa;
+    text-decoration: underline;
+}
+.preto:hover { 
+    color:rgb(39, 8, 8);
+}
+
+.azul_steam { 
+    color:rgb(66, 66, 255);
+    text-decoration: underline;
+}
