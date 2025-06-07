@@ -138,3 +138,10 @@ button {
 button:hover {
     background-color: #33bbff;
 }
+
+html, body {
+  height: 100%;
+  overflow: hidden; /* Esconde scroll vertical e horizontal */
+  margin: 0;
+  padding: 0;
+}
