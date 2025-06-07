@@ -143,3 +143,10 @@ footer img {
     height: 32px;
     margin-bottom: 5px;
 }
+
+html, body {
+  height: 100%;
+  overflow: hidden; /* Esconde scroll vertical e horizontal */
+  margin: 0;
+  padding: 0;
+}
