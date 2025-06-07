@@ -1,38 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="contacts.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
 
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+        }
+
+        nav ul li {
+            margin: 10px 20px;
+        }
+
+        nav ul li a, nav ul li c {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #00ffff;
+            text-decoration: underline;
+        }
+
+        h1 {
+            text-align: center;
+            color: #00ffff;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+
+        .ciano {
+            color: #00ffff;
+            font-weight: bold;
+        }
+
+        .azul_steam {
+            color: #66c0f4;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <nav>
             <ul>
-                <li>
-                    <a href="index.html">Sobre mim</a>
-                </li>
-                <li>
-                    <c>Projetos (Em breve...)</c>
-                </li>
-                <li>
-                    <a href="contacts.html">Contato</a>
-                </li>
+                <li><a href="index.html">Sobre mim</a></li>
+                <li><span style="color: gray;">Projetos (Em breve...)</span></li>
+                <li><a href="contacts.html">Contato</a></li>
             </ul>
         </nav>
-    
-    <h1>
-        Algumas formas de se comunicar comigo: 
-    </h1>
-    <p>
-        <span class="ciano">Meu Discord:</span> Souga_sa
-    </p>
-    <p>
-         <span class="azul_steam">Minha Steam:</span> Schinitzel
-    </p>
 
+        <h1>Algumas formas de se comunicar comigo:</h1>
+
+        <p><span class="ciano">Meu Discord:</span> Souga_sa</p>
+        <p><span class="azul_steam">Minha Steam:</span> Schinitzel</p>
     </div>
 </body>
 </html>
