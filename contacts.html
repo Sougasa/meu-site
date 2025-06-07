@@ -3,84 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-            color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.6);
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            padding: 0;
-            background-color: #1a1a1a;
-            border-radius: 8px;
-        }
-
-        nav ul li {
-            margin: 10px 20px;
-        }
-
-        nav ul li a, nav ul li c {
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav ul li a:hover {
-            color: #00ffff;
-            text-decoration: underline;
-        }
-
-        h1 {
-            text-align: center;
-            color: #00ffff;
-        }
-
-        p {
-            font-size: 1.2em;
-            margin-bottom: 15px;
-        }
-
-        .ciano {
-            color: #00ffff;
-            font-weight: bold;
-        }
-
-        .azul_steam {
-            color: #66c0f4;
-            font-weight: bold;
-        }
-    </style>
+    <title>Contato - Souga</title>
+    <link rel="stylesheet" href="index.css"> <!-- ou contacts.css, se quiser separar -->
 </head>
 <body>
     <div class="container">
         <nav>
             <ul>
-                <li><a href="index.html">Sobre mim</a></li>
-                <li><span style="color: gray;">Projetos (Em breve...)</span></li>
-                <li><a href="contacts.html">Contato</a></li>
+                <li>
+                    <a href="index.html">Sobre mim</a>
+                </li>
+                <li>
+                    <span style="color: gray;">Projetos (Em breve...)</span>
+                </li>
+                <li>
+                    <a href="contacts.html">Contato</a>
+                </li>
             </ul>
         </nav>
 
-        <h1>Algumas formas de se comunicar comigo:</h1>
+        <header>
+            <div class="center">
+                <img src="katarina.jpg" alt="Imagem do Souga">
+            </div>
+            <h1>Souga Developer</h1>
+            <h2>Formas de <span class="soft">contato</span></h2>
+        </header>
 
-        <p><span class="ciano">Meu Discord:</span> Souga_sa</p>
-        <p><span class="azul_steam">Minha Steam:</span> Schinitzel</p>
+        <main>
+            <section>
+                <h3>Entre em contato</h3>
+                <p><span class="discord">Discord:</span> Souga_sa</p>
+                <p><span class="steam">Steam:</span> Schinitzel</p>
+            </section>
+        </main>
+
+        <footer>
+            <a href="https://github.com/Sougasa" target="_blank" rel="noopener noreferrer">
+                <img src="github.svg" alt="GitHub">
+                <p><span class="github">Github</span></p>
+            </a>
+            <a href="contacts.html" target="_blank" rel="noopener noreferrer">
+                <img src="discord.svg" alt="Discord">
+                <p><span class="discord">Discord</span></p>
+            </a>
+            <a href="https://www.youtube.com/@souga_sa8239" target="_blank" rel="noopener noreferrer">
+                <img src="youtube.svg" alt="YouTube">
+                <p><span class="youtube">Youtube</span></p>
+            </a>
+        </footer>
     </div>
 </body>
 </html>
